@@ -1,0 +1,45 @@
+2021-05-02 18:08:36,327 Starting new HTTPS connection (1): s3-us-west-2.amazonaws.com:443
+2021-05-02 18:08:36,649 https://s3-us-west-2.amazonaws.com:443 "GET /com.guild.us-west-2.public-data/project-data/the-movies-dataset.zip HTTP/1.1" 200 237109043
+2021-05-02 18:09:06,133 capturing of files completed successfully
+2021-05-02 18:09:10,646 CSV Files successfully extracted
+2021-05-02 18:09:23,543 Data Frames have been created
+2021-05-02 18:09:31,044 incorrect values have been removed from dataframe
+2021-05-02 18:09:32,109 Stringified columns have been converted to list
+2021-05-02 18:09:33,515 Stringified columns have been converted to list
+2021-05-02 18:10:29,064 Stringified lists have been converted to columns
+2021-05-02 18:10:29,095 df_genres DataFrame built successfully
+2021-05-02 18:10:29,110 df_production_companies DataFrame built successfully
+2021-05-02 18:10:29,204        df_genres      id
+0      Animation     862
+0         Comedy     862
+0         Family     862
+1      Adventure    8844
+1        Fantasy    8844
+...          ...     ...
+45461     Family  439050
+45462      Drama  111109
+45463     Action   67758
+45463      Drama   67758
+45463   Thriller   67758
+
+[91084 rows x 2 columns]CSV file created
+2021-05-02 18:10:29,316              df_production_companies      id
+0            Pixar Animation Studios     862
+1                   TriStar Pictures    8844
+1                       Teitler Film    8844
+1          Interscope Communications    8844
+2                       Warner Bros.   15602
+...                              ...     ...
+45460    20th Century Fox Television   30840
+45460  CanWest Global Communications   30840
+45462                    Sine Olivia  111109
+45463        American World Pictures   67758
+45464                      Yermoliev  227506
+
+[70544 rows x 2 columns]CSV file created
+2021-05-02 18:10:29,325 Database connection created successfully
+2021-05-02 18:10:29,712 df_genres created successfully
+2021-05-02 18:10:29,922 df_production_companies created successfully
+2021-05-02 18:10:30,849 movies_metadata created successfully
+2021-05-02 18:10:31,193 the query ran successfully
+2021-05-02 18:10:31,199 Connection closed successfully
